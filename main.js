@@ -1,13 +1,17 @@
 // ES5
-// var myName = "Ariq Daffa"
+var myCars = ["BMW", "Tesla", "Toyota"]
 
-// myName = "Sinarmas"
-// myName = "Asus"
+for (var i = 0; i < myCars.length; i++) {
+    console.log("My Cars (var): " + myCars[i])
+}
 
-// console.log(myName)
+console.log(i)
 
 // ES6
-let constName = "Ariq"
-constName = "Sinarmas"
+let myCarsLet = ["BMW", "Tesla", "Toyota"]
 
-console.log(constName)
+for (let x = 0; x < myCarsLet.length; x++) {
+    console.log("My Cars (let): " + myCarsLet[x])
+}
+
+console.log(x)
