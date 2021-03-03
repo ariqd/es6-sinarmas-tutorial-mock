@@ -1,17 +1,9 @@
+// Ambil element
+const user = document.getElementById("user");
+
 // ES5
-var myCars = ["BMW", "Tesla", "Toyota"]
-
-for (var i = 0; i < myCars.length; i++) {
-    console.log("My Cars (var): " + myCars[i])
-}
-
-console.log(i)
+const user_logged = "Ariq";
+// user.innerHTML = "Hi, " + user_logged + ". Apa kabar?";
 
 // ES6
-let myCarsLet = ["BMW", "Tesla", "Toyota"]
-
-for (let x = 0; x < myCarsLet.length; x++) {
-    console.log("My Cars (let): " + myCarsLet[x])
-}
-
-console.log(x)
+user.innerHTML = `Hi, ${user_logged}, apa kabar?`
